@@ -1,0 +1,39 @@
+.list-item {
+    background-color: white;
+    border: 1px solid gray;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list-id p {
+    background-color: #dcdcdc;
+    border: 1px solid gray;
+    border-color: white;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.list-delete{
+    margin: auto;
+    margin-right:10px;
+}
+
+.list-details {
+    margin: 10px;
+}
+
+#btn-delete {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
